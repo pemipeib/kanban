@@ -8,35 +8,184 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
 
+    <!-- css propio-->
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Hello, world!</title>
 </head>
 <body>
 
+<!--esquema de proyecto-->
 <div class="container">
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11">
-            <div class="col-3">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
+    <h2>Esquema de proyecto</h2>
+    <div class="d-flex">
+<!--        barra lateral-->
+        <div class="col-1 bg-danger"></div>
+
+<!--        contenido-->
+        <div class="col-11 d-flex flex-column">
+
+<!--            cabecera-->
+            <div class=" p-2">
+                <p class="m-auto"><a href="#">REF proveedor</a> Nombre del proveedor</p>
             </div>
-            <div class="col-3">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
+
+<!--            fechas-->
+            <div class=" d-flex p-2">
+                <div class="col-6 d-flex flex-row">
+                    <div class="col-6">
+                        <div class="">tiempo estimado</div>
+                        <div class="">tiempo dedicado</div>
+                    </div>
+                    <div class="">
+                        <span>columna</span>
+                    </div>
+                </div>
+                <div class="col-6 d-flex flex-row">
+                    <div class="col-6">
+                        <div class="">Fecha de inicio</div>
+                        <div class="">fecha de fin</div>
+                    </div>
+                    <div class="">
+                        <span>columna</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
+
+<!--            pendientes-->
+            <div class="d-flex flex-row p-2">
+                <div class="col-6">tareas pendientes de finalizar</div>
+                <div class="col-6">columna</div>
             </div>
-            <div class="col-3">
-                <div class="col-3"></div>
-                <div class="col-3"></div>
-                <div class="col-3"></div>
-                <div class="col-3"></div>
+
+<!--            tiempo pendiente-->
+            <div class="d-flex flex-row p-2">
+                <div class="col-6">tiempo pendiente de finalizar</div>
+                <div class="col-6">columna</div>
             </div>
+
+<!--            circulos-->
+            <div class=" d-flex justify-content-center flex-row p-2">
+                <div class="col-3">
+                    <p class="cabecera-circulo">Número comentarios</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios text-center">75</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <p>Número de tereas</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios text-center">75</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <p>Notas</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios ">75</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <p>Documentos adjuntos</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios text-center">75</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <!--  /contenido-->
+
     </div>
+<!--    /row-->
+
 </div>
+<!--/container-->
+
+<!--esquema de tarea-->
+<div class="container mt-4">
+    <h2>Esquema de tareas</h2>
+    <div class="d-flex">
+        <!--        barra lateral-->
+        <div class="col-1 bg-danger"></div>
+
+        <!--        contenido-->
+        <div class="col-11 d-flex flex-column">
+
+            <!--            cabecera-->
+            <div class="p-2">
+                <p class="m-auto"><a href="#">REF proveedor</a> Nombre del proveedor</p>
+            </div>
+
+            <!--            fechas-->
+            <div class=" d-flex p-2">
+                <div class="col-6 d-flex flex-row">
+                    <div class="col-6">
+                        <div class="">tiempo estimado</div>
+                        <div class="">tiempo dedicado</div>
+                    </div>
+                    <div class="">
+                        <span>columna</span>
+                    </div>
+                </div>
+                <div class="col-6 d-flex flex-row">
+                    <div class="col-6">
+                        <div class="">Fecha de inicio</div>
+                        <div class="">fecha de fin</div>
+                    </div>
+                    <div class="">
+                        <span>columna</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--            pendientes-->
+            <div class="d-flex flex-row p-2">
+                <div class="col-6">tareas pendientes de finalizar</div>
+                <div class="col-6">columna</div>
+            </div>
+
+            <!--            tiempo pendiente-->
+<!--            <div class="d-flex flex-row p-2">-->
+<!--                <div class="col-6">tiempo pendiente de finalizar</div>-->
+<!--                <div class="col-6">columna</div>-->
+<!--            </div>-->
+
+            <!--            circulos-->
+            <div class=" d-flex justify-content-center flex-row p-2">
+                <div class="col-4">
+                    <p class="cabecera-circulo">Número comentarios</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios text-center">75</div>
+                    </div>
+                </div>
+<!--                <div class="col-3">-->
+<!--                    <p>Número de tereas</p>-->
+<!--                    <div class="rounded-circle circulo">-->
+<!--                        <div class="numero-comentarios text-center">75</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="col-4">
+                    <p>Notas</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios ">75</div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p>Documentos adjuntos</p>
+                    <div class="rounded-circle circulo">
+                        <div class="numero-comentarios text-center">75</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--  /contenido-->
+
+    </div>
+    <!--    /row-->
+
+</div>
+<!--/container-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
